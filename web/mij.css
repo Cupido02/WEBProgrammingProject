@@ -1,0 +1,319 @@
+.first{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.first > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+.first > .div1{
+    background-color: #000000;
+    width: 30px;
+    margin: -10px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 30px;
+}
+.first .div2 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.second{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    margin-top: 300px;
+    line-height: 0px;
+    font-size: 15px;
+}
+.secbord {
+        /* display: flex; */
+		justify-content: center;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 45%;
+        border-width:3px;
+        border: 2px solid rgb(2, 2, 2);
+        padding: 5px;
+        
+}
+.secbord1{
+    background-color: #ffffff;
+    border: none;
+}
+
+.third{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-image: url("pic1.jpeg");
+    background-repeat: no-repeat;    
+	background-size: cover;
+	
+	margin-top: 300px;
+	padding-bottom: 200px;
+}
+
+
+.third1{
+    flex-direction: column;
+	align-items: flex-end;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-right: 2px;
+    
+}
+.third1 > .d1{
+	margin-top: 120px;
+	margin-bottom: 150px;
+	margin-right: 40px;
+}
+.third1 > .d2{
+	margin-right: 40px;
+}
+
+.third2{
+    flex-direction: column;
+	align-items: flex-start;
+	font-size: 50px;
+	margin-right: 2px;
+}
+.third2 > .d3{
+	margin-top: 270px;
+	margin-bottom: 150px;
+	margin-left: 40px;
+}
+.third2 > .d4{
+	margin-left: 40px;
+}
+.tpic{
+	display: flex;
+	padding-bottom: 150px;
+	background-image: url("pic2.jpeg");
+    background-repeat: no-repeat;    
+	background-size: cover;
+}
+
+.fourtop{
+	display: flex;
+    flex-direction:column;
+    text-align: center;
+    margin-top: 100px;
+	margin-bottom: 130px;
+	line-height: 0px;
+    font-size: 15px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.four{
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.four > .d1{
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.fpic1{
+	display: flex;
+	padding-bottom: 150px;
+	background-image: url("Service1.jpeg");
+    background-repeat: no-repeat;    
+	background-size: cover;
+}
+
+.five{
+    display: flex;
+	justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("Service2.jpeg");
+    background-repeat: no-repeat;    
+	background-size: cover;
+    padding-bottom: 500px;
+    color: white;
+}
+
+.fpic2{
+	display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+	padding-bottom: 200px;
+	background-image: url("Service3.jpeg");
+    background-repeat: no-repeat;    
+	background-size: cover;
+}
+
+.fpic2 > .a{
+    display: flex;
+	justify-content: center;
+    position: absolute;
+    border-width:3px;
+    border: 2px solid rgb(250, 250, 250);
+    background-color: #ffffff;
+    padding: 5px;
+    font-size: 15px;
+} 
+
+.six1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.f2{
+    color: rgb(160, 160, 160);
+    margin-top: -20px;
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-width:3px;
+    color: grey;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    border-width:3px;
+    color: grey;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 300px;
+    width: 500px;
+
+}
+.text0{
+    display: flex;
+    justify-content: center;
+}
+
+.container { 
+    position: relative;
+    margin-top: 100px;
+  }
+
+.s5{
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    justify-content:center;
+    border-width:3px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #000000;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+}
+.s51{
+    background-color: black;
+}
+
+.seventop{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-style: oblique;
+    font-size: 30px;
+}
+.seven{
+    display: flex;
+    justify-content: center;    
+}
+.sevenbot{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("workbeq.jpeg");
+    background-repeat: no-repeat;    
+	background-size: cover;
+    color: #333333;
+    margin-top: 20px;
+    padding-bottom: 700px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-style: italic;
+    background-image: url("end.jpg");
+    background-repeat: no-repeat;    
+	background-size: cover;
+    padding-bottom: 1500px;
+    color: #ffffff;
+}
+.end1{
+    text-align: center;
+    font-size: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 1400px){
+    .third{
+        background-position: 50%;
+    }
+}
+@media(max-width: 1400px){
+    .tpic{
+        background-position: 50%;
+    }
+}
+@media(max-width: 1050px){
+    .five{
+        background-position: 50%;
+    }
+}
+@media(max-width: 1400px){
+    .sevenbot{
+        background-position: 50%;
+    }
+}
+@media(max-width: 1500px){
+    .end{
+        background-position: 50%;
+    }
+}
+
+
+
+
+
